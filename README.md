@@ -1,20 +1,45 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Cell Explorer
 
-# Run and deploy your AI Studio app
+This project is an interactive web application that allows users to explore the fascinating world of plant and animal cells. Users can visually inspect cell diagrams, compare the differences between the two cell types, and test their knowledge with a quiz.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1mH73pNKv-6QOjF149A5z9_ispUtxW5bx
+*   **Interactive Cell Diagrams:** Explore detailed diagrams of both plant and animal cells. Click on different organelles to learn more about their functions.
+*   **Comparison View:** See a side-by-side comparison of plant and animal cells, highlighting their key differences.
+*   **Quiz Mode:** Test your knowledge with a fun and challenging quiz about cell biology.
+*   **Achievements:** Unlock badges as you explore and learn.
+*   **Dark Mode:** Switch between light and dark themes for comfortable viewing.
 
-## Run Locally
+## Technologies Used
 
-**Prerequisites:**  Node.js
+*   **React:** A JavaScript library for building user interfaces.
+*   **TypeScript:** A typed superset of JavaScript that compiles to plain JavaScript.
+*   **Vite:** A fast build tool and development server.
+*   **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
 
+## Getting Started
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Prerequisites
+
+*   Node.js and npm (or yarn) installed on your machine.
+
+### Installation
+
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/priyanshuchawda/bio.git
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd bio
+    ```
+3.  Install the dependencies:
+    ```bash
+    npm install
+    ```
+
+### Available Scripts
+
+*   `npm run dev`: Starts the development server.
+*   `npm run build`: Builds the application for production.
+*   `npm run preview`: Serves the production build locally.
